@@ -18,7 +18,7 @@ const columns = [
         title: 'Height',
         dataIndex: 'height',
         key: 'height',
-        render: (height: string) =>(parseInt( height) / 100) +' centimetros',
+        render: (height: string) =>(parseInt( height) / 100) +' mts',
     },
     {
         title: 'Films',
