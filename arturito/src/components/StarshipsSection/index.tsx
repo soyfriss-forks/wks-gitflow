@@ -25,7 +25,7 @@ const columns = [
         key: 'passengers'
     },
     {
-        title: 'Cantidad de films',
+        title: 'Nb of films',
         dataIndex: 'films',
         key: 'films',
         render: (films: string[]) => films ? films.length : 0,
