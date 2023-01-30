@@ -5,6 +5,7 @@ import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
 import Starships from '../../components/StarshipsSection';
+import People from '../../components/PeopleSection';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -50,9 +51,10 @@ const MainContainer = () => {
           <div className="p-3">
             <p className="font-bold text-xl"># TODO</p>
             <p>
-              Agregar tabla con los personajes sacados de la API. Mostrar para
+              <People />
+              {/* Agregar tabla con los personajes sacados de la API. Mostrar para
               cada persona: name, birth_year, height (en metros), cantidad de
-              films. Codear en un componente aparte tal como {'<Planets>'}.
+              films. Codear en un componente aparte tal como {'<Planets>'}. */}
             </p>
             <p>
               <a href="https://swapi.dev/documentation#people">
